@@ -1,0 +1,119 @@
+/*First page*/
+body{
+	background-image: url("../images/concrete_seamless.png");
+	margin-bottom: 100px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, 'sans-serif';
+	font-size: 18px;
+	color: #666666;
+}
+.navbar-brand{
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Georgia, 'Times', 'Times New Roman', 'serif';
+	background-color: #4aaaa5;
+	color: white;
+	padding: 20px;
+}
+.navbar-nav{
+	font-family: Arial, 'Helvetica Neue', Helvetica, 'sans-serif';
+	float: right;
+	margin-right: 210px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.navbar-default{
+	font-family:'Georgia', 'Times', 'Times New Roman', 'serif'; /*this part is not working*/
+	font-size: 28px;
+	background-color: white;
+	border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 2px;
+}
+ #nav{
+	padding-top: 32px;
+	padding-bottom: 50px;
+	color: white;
+	background-color: #4aaaa5;
+ }
+ h2,h3{
+ 	color: #4aaaa5;
+ 	font-weight: bold;
+	color: #4aaaa5;
+	font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+	padding-top: 15px;
+ }
+#main{
+	background: white;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-top: 25px;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 1.5px;
+	max-width: auto;
+	align-content: center;
+	height: auto;
+	line-height: 170%;
+}
+#my-picture{
+	margin-bottom: 25px;
+	margin-right: 25px;
+	float: left;
+}
+#connect{
+	background-color: white;
+	padding-bottom: 40px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 1.5px;
+	
+}
+footer{
+	text-align: center;
+	height: 80px;
+	border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.panel-body{
+	background: #808080;
+	color: #e6e6e6;
+	font-size: 13px;
+	height: 80px;
+	padding-top: 25px;
+	margin-top: -2px
+}
+#button{
+	padding: 10px;
+	width: 85px;
+	background-color: #4aaaa5;
+	color: white;
+	font-weight: bold;
+}
+h4{
+	width: 300px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;
+	position: absolute;
+  	bottom: 25px;
+  	padding: 15px;
+  }
+
+.pimages{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+
