@@ -76,6 +76,8 @@ body{
 	border-color: #e6e6e6;
 	border-width: 1.5px;
 	width: auto;
+	position: fixed;
+	right: 17%;
 }
 #contactImages{
 	padding: 10px;
@@ -114,12 +116,46 @@ h4{
 	color: white;
 	position: absolute;
   	bottom: 25px;
-  	padding: 15px;
+	  padding: 15px;
+	  transition: 1.5s;
   }
 
 .pimages{
 	margin-top: 20px;
 	margin-bottom: 25px;
+}
+
+
+.pimages{
+	margin-top: 20px;
+	margin-bottom: 25px;
+	background-size:auto 100%;
+	background-position: center;
+	transition: 0.5s;
+}
+
+/* .pimages:hover{
+	background-size:15px;
+	width: 315px;
+	height: 210px;
+} */
+.banners {
+	transition: 0.5s;
+}
+
+.banners:hover{
+	background-size:15px;
+	height: 130px;
+	transition: 0.5s;
+}
+
+.banners:hover:after{
+	display: inline-block;
+	word-wrap: break-word;
+	overflow: hidden;
+	margin-top:5px; 
+	font-size: 14px;
+	content:attr(data-text);
 }
 
 
