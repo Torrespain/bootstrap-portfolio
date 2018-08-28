@@ -59,7 +59,8 @@ body{
 	line-height: 170%;
 }
 #my-picture{
-	margin-bottom: 25px;
+	margin-top:10px;
+	margin-bottom: 5px;
 	margin-right: 25px;
 	float: left;
 }
@@ -190,17 +191,6 @@ footer{
 		position: relative;
 		bottom: 100px;
 	}
-
-	/* .banners {
-		width: 350px;
-		text-align: center;
-		background-color: #4aaaa5;
-		color: white;
-		position: absolute;
-		  
-		
-		transition: 0.5s;
-	} */
 }
 
 @media screen and (max-width: 768px){
